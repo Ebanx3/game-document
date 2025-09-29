@@ -16,192 +16,282 @@
         <h2>🧠 Resumen del Proyecto</h2>
         <div class="container-flex">
             <img src="./resources/Copilot_20250928_215902.png" alt="mapa">
-            <div >
+            <div>
                 <p><strong>Nombre tentativo:</strong> Fragmentos del Fin</p>
                 <p><strong>Género:</strong> RPG por turnos, ambientado en un mundo de fantasía ligera</p>
-                <p><strong>Objetivo:</strong> Crear una experiencia accesible y envolvente donde el jugador recorre un mapa
-                    dividido en localidades. Cada localidad ofrece un menú interactivo con lugares y personajes que disparan
-                    eventos como misiones, diálogos, tiendas, y desafíos. El foco está en la exploración narrativa y la toma
+                <p><strong>Objetivo:</strong> Crear una experiencia accesible y envolvente donde el jugador recorre un
+                    mapa
+                    dividido en localidades. Cada localidad ofrece un menú interactivo con lugares y personajes que
+                    disparan
+                    eventos como misiones, diálogos, tiendas, y desafíos. El foco está en la exploración narrativa y la
+                    toma
                     de decisiones estratégicas en combate.</p>
-                    <p><strong>Estado actual:</strong> En etapa de conceptualización. Se está definiendo la estructura base del
-                        juego y buscando colaboradores para desarrollo, arte y narrativa.</p>
-                        <p><strong>Multijugador:</strong> Los jugadores pueden ver e interactuar con otros usuarios presentes en la
-                            misma localidad, invitarlos a misiones cooperativas y compartir eventos narrativos.</p>
-            <p><strong>Estilo visual y técnico:</strong> El juego busca mantener una estética simple y accesible. Se
-                utilizarán imágenes de fondo estilo pixel art generadas por IA, con menús superpuestos, diálogos y
-                personajes estáticos o con desplazamientos mínimos. Las transiciones entre escenas se realizarán con
-                efectos suaves como fade in / fade out. No se planean animaciones complejas ni entornos 3D, priorizando
-                la claridad y la velocidad de desarrollo.</p>
+                <p><strong>Estado actual:</strong> En etapa de conceptualización. Se está definiendo la estructura base
+                    del
+                    juego y buscando colaboradores para desarrollo, arte y narrativa.</p>
+                <p><strong>Multijugador:</strong> Los jugadores pueden ver e interactuar con otros usuarios presentes en
+                    la
+                    misma localidad, invitarlos a misiones cooperativas y compartir eventos narrativos.</p>
+                <p><strong>Estilo visual y técnico:</strong> El juego busca mantener una estética simple y accesible. Se
+                    utilizarán imágenes de fondo estilo pixel art generadas por IA, con menús superpuestos, diálogos y
+                    personajes estáticos o con desplazamientos mínimos. Las transiciones entre escenas se realizarán con
+                    efectos suaves como fade in / fade out. No se planean animaciones complejas ni entornos 3D,
+                    priorizando
+                    la claridad y la velocidad de desarrollo.</p>
 
+            </div>
         </div>
-    </div>
-        
+
     </section>
 
-    <section>
-        <h2>🎮 Mecánicas de Juego</h2>
-        <ul>
-            <li><strong>Mapa general:</strong> El mundo del juego se presenta como un mapa visto desde arriba. Las
-                ubicaciones disponibles se revelan dinámicamente según el punto actual del jugador.</li>
+    <details>
+        <summary>🎮 Mecánicas de Juego</summary>
+        <div>
+            <ul>
+                <li><strong>Mapa general:</strong> El mundo del juego se presenta como un mapa visto desde arriba. Las
+                    ubicaciones disponibles se revelan dinámicamente según el punto actual del jugador.</li>
 
-            <li><strong>Exploración por localidades:</strong> Cada ubicación tiene un fondo visual único y contiene
-                sub-ubicaciones como tiendas, cantinas, templos, etc. Al ingresar, pueden dispararse eventos como
-                apariciones de personajes, diálogos, enemigos o misiones.</li>
+                <li><strong>Exploración por localidades:</strong> Cada ubicación tiene un fondo visual único y contiene
+                    sub-ubicaciones como tiendas, cantinas, templos, etc. Al ingresar, pueden dispararse eventos como
+                    apariciones de personajes, diálogos, enemigos o misiones.</li>
 
-            <li><strong>Misiones y narrativa:</strong> El juego no sigue una historia lineal, sino que ofrece mini
-                historias y misiones independientes. Estas pueden variar según la ubicación, los personajes presentes y
-                las decisiones del jugador.</li>
+                <li><strong>Misiones y narrativa:</strong> El juego no sigue una historia lineal, sino que ofrece mini
+                    historias y misiones independientes. Estas pueden variar según la ubicación, los personajes
+                    presentes y
+                    las decisiones del jugador.</li>
 
-            <li><strong>Diálogos interactivos:</strong> Los jugadores pueden tomar decisiones dentro de los diálogos que
-                afectan el desarrollo de la misión, el comportamiento de los NPCs o el acceso a nuevas zonas.</li>
+                <li><strong>Diálogos interactivos:</strong> Los jugadores pueden tomar decisiones dentro de los diálogos
+                    que
+                    afectan el desarrollo de la misión, el comportamiento de los NPCs o el acceso a nuevas zonas.</li>
 
-            <li><strong>Combate por turnos:</strong> Enfrentamientos estratégicos donde cada jugador puede:
-                <ul>
-                    <li>Realizar un ataque básico</li>
-                    <li>Usar habilidades especiales</li>
-                    <li>Consumir ítems</li>
-                    <li>Intentar huir del combate</li>
-                </ul>
-            </li>
+                <li><strong>Combate por turnos:</strong> Enfrentamientos estratégicos donde cada jugador puede:
+                    <ul>
+                        <li>Realizar un ataque básico</li>
+                        <li>Usar habilidades especiales</li>
+                        <li>Consumir ítems</li>
+                        <li>Intentar huir del combate</li>
+                    </ul>
+                </li>
 
-            <li><strong>Muerte permanente:</strong> Si un jugador muere, no puede revivir. Esto hará que el usuario deba
-                prestar especial atención a los enemigos que desea enfrentar y las estrategías que usará.
-                En su lugar, se genera un cristal que se envía a un jugador amigo, el cual puede usarlo para encantar
-                armas u obtener beneficios únicos.</li>
+                <li><strong>Multijugador local:</strong> En cada localidad se muestra una lista de jugadores presentes.
+                    Se
+                    puede interactuar con ellos mediante diálogos, comercio o invitaciones a misiones cooperativas.</li>
 
-            <li><strong>Multijugador local:</strong> En cada localidad se muestra una lista de jugadores presentes. Se
-                puede interactuar con ellos mediante diálogos, comercio o invitaciones a misiones cooperativas.</li>
+                <li><strong>Eventos dinámicos:</strong> Las ubicaciones pueden cambiar con el tiempo o por acciones de
+                    los
+                    jugadores, generando nuevos desafíos, personajes o recompensas.</li>
+            </ul>
+        </div>
+    </details>
 
-            <li><strong>Eventos dinámicos:</strong> Las ubicaciones pueden cambiar con el tiempo o por acciones de los
-                jugadores, generando nuevos desafíos, personajes o recompensas.</li>
-        </ul>
-    </section>
+    <details>
+        <summary>🖥️ Tecnología y Plataforma</summary>
+        <div>
+            <ul>
+                <li><strong>Plataforma:</strong> El juego está diseñado exclusivamente para navegadores web, con enfoque
+                    mobile-first. La interfaz y las mecánicas están pensadas para funcionar fluidamente en dispositivos
+                    móviles, sin necesidad de instalación ni motores externos.</li>
 
-    <section>
-        <h2>🖥️ Tecnología y Plataforma</h2>
-        <ul>
-            <li><strong>Plataforma:</strong> El juego está diseñado exclusivamente para navegadores web, con enfoque
-                mobile-first. La interfaz y las mecánicas están pensadas para funcionar fluidamente en dispositivos
-                móviles, sin necesidad de instalación ni motores externos.</li>
+                <li><strong>Stack principal:</strong>
+                    <ul>
+                        <li><strong>Frontend:</strong> React + TypeScript para construir una interfaz modular,
+                            responsiva y
+                            escalable.</li>
+                        <li><strong>Backend:</strong> Node.js para gestionar lógica del juego, sesiones y persistencia.
+                        </li>
+                        <li><strong>Interactividad en tiempo real:</strong> Socket.IO para sincronizar eventos entre
+                            jugadores, como presencia en localidades, invitaciones a misiones y combates cooperativos.
+                        </li>
+                    </ul>
+                </li>
 
-            <li><strong>Stack principal:</strong>
-                <ul>
-                    <li><strong>Frontend:</strong> React + TypeScript para construir una interfaz modular, responsiva y
-                        escalable.</li>
-                    <li><strong>Backend:</strong> Node.js para gestionar lógica del juego, sesiones y persistencia.</li>
-                    <li><strong>Interactividad en tiempo real:</strong> Socket.IO para sincronizar eventos entre
-                        jugadores, como presencia en localidades, invitaciones a misiones y combates cooperativos.</li>
-                </ul>
-            </li>
+                <li><strong>Estilo visual:</strong> Imágenes de fondo estilo pixel art generadas por IA, con
+                    superposición
+                    de menús, personajes estáticos y transiciones suaves (fade in / fade out). Se evita el uso de
+                    animaciones complejas o entornos 3D.</li>
 
-            <li><strong>Estilo visual:</strong> Imágenes de fondo estilo pixel art generadas por IA, con superposición
-                de menús, personajes estáticos y transiciones suaves (fade in / fade out). Se evita el uso de
-                animaciones complejas o entornos 3D.</li>
+                <li><strong>Filosofía técnica:</strong> Priorizar la simplicidad, compatibilidad y velocidad de
+                    desarrollo.
+                    Todo se construye con tecnologías web nativas, sin motores gráficos ni frameworks pesados. La
+                    experiencia está optimizada para pantallas táctiles y navegación móvil.</li>
+            </ul>
+        </div>
+    </details>
 
-            <li><strong>Filosofía técnica:</strong> Priorizar la simplicidad, compatibilidad y velocidad de desarrollo.
-                Todo se construye con tecnologías web nativas, sin motores gráficos ni frameworks pesados. La
-                experiencia está optimizada para pantallas táctiles y navegación móvil.</li>
-        </ul>
-    </section>
+    <details>
+        <summary>🎨 Estilo Visual y Narrativo</summary>
+        <div>
+            <ul>
+                <li><strong>Estética general:</strong> Pixel art con un tono mixto entre lo sombrío y lo nostálgico. Se
+                    busca transmitir una atmósfera medieval con criaturas clásicas como brujos, arqueros, orcos y más.
+                </li>
 
-    <section>
-        <h2>🎨 Estilo Visual y Narrativo</h2>
-        <ul>
-            <li><strong>Estética general:</strong> Pixel art con un tono mixto entre lo sombrío y lo nostálgico. Se
-                busca transmitir una atmósfera medieval con criaturas clásicas como brujos, arqueros, orcos y más.</li>
+                <li><strong>Retratos de personajes:</strong> Cada personaje relevante contará con un retrato visual,
+                    reforzando su identidad y presencia en los diálogos.</li>
 
-            <li><strong>Retratos de personajes:</strong> Cada personaje relevante contará con un retrato visual,
-                reforzando su identidad y presencia en los diálogos.</li>
+                <li><strong>Fondos únicos:</strong> Cada sub-ubicación dentro de una localidad (tienda, cantina, templo,
+                    etc.) tendrá su propio fondo visual, generado en estilo pixel art para mantener coherencia estética.
+                </li>
 
-            <li><strong>Fondos únicos:</strong> Cada sub-ubicación dentro de una localidad (tienda, cantina, templo,
-                etc.) tendrá su propio fondo visual, generado en estilo pixel art para mantener coherencia estética.
-            </li>
+                <li><strong>Narrativa modular:</strong> El juego no sigue una historia principal, sino que ofrece mini
+                    historias y misiones independientes que se activan según la ubicación, los personajes y las
+                    decisiones
+                    del jugador.</li>
 
-            <li><strong>Narrativa modular:</strong> El juego no sigue una historia principal, sino que ofrece mini
-                historias y misiones independientes que se activan según la ubicación, los personajes y las decisiones
-                del jugador.</li>
+                <li><strong>Diálogos ramificados:</strong> Las decisiones tomadas en los diálogos afectan el desarrollo
+                    de
+                    la misión, el comportamiento de los NPCs y el acceso a nuevas zonas o recompensas.</li>
 
-            <li><strong>Diálogos ramificados:</strong> Las decisiones tomadas en los diálogos afectan el desarrollo de
-                la misión, el comportamiento de los NPCs y el acceso a nuevas zonas o recompensas.</li>
+                <li><strong>Tono narrativo:</strong> Varía según la misión: algunas serán dramáticas, otras misteriosas,
+                    otras con humor o tensión. El mundo tiene una historia de fondo implícita, pero no se impone al
+                    jugador.
+                </li>
+            </ul>
+        </div>
+    </details>
 
-            <li><strong>Tono narrativo:</strong> Varía según la misión: algunas serán dramáticas, otras misteriosas,
-                otras con humor o tensión. El mundo tiene una historia de fondo implícita, pero no se impone al jugador.
-            </li>
-        </ul>
-    </section>
+    <details>
+        <summary>✨ Características Distintivas</summary>
+        <div>
+            <ul>
+                <li><strong>Muerte permanente:</strong> Si un jugador muere, no puede revivir. Su cristal queda como
+                    legado
+                    para otros jugadores, generando consecuencias narrativas y mecánicas.</li>
 
-    <section>
-        <h2>🏰 Historia de Fondo (ambientación general)</h2>
-        <p><strong>Hace siglos, el continente de Virelia fue dividido por un cataclismo mágico conocido como “La
-                Fractura”.</strong></p>
-        <p>
-            Desde entonces, las localidades quedaron aisladas, cada una con sus propias reglas, criaturas y secretos.
-            Los viajeros que se aventuran por el mapa lo hacen sabiendo que cada paso puede ser el último. La magia que
-            provocó la Fractura aún vive en los cristales que los caídos dejan atrás, y quienes los heredan pueden
-            canalizar su poder… o ser corrompidos por él.</p>
+                <li><strong>Cementerio de personajes:</strong> En una ubicación especial del mapa, los jugadores pueden
+                    consultar un registro de personajes fallecidos, leer sus historias y descubrir cómo murieron.
+                    Algunos
+                    cristales pueden quedar allí como reliquias.</li>
 
-        <span>Este tipo de historia te permite justificar:</span>
-        <ul>
-            <li>Localidades con estilos únicos.</li>
-            <li>Eventos impredecibles.</li>
-            <li>La mecánica de muerte permanente y legado mágico.</li>
-            <li>Misiones fragmentadas con tono variado.</li>
-        </ul>
-    </section>
+                <li><strong>Gremios:</strong> Los jugadores pueden crear o unirse a gremios. Esto permite compartir
+                    cristales, colaborar en misiones, y acceder a sub-ubicaciones exclusivas como salas de reunión o
+                    forjas
+                    compartidas.</li>
 
-   <a href="./pages/personajes.html"><h2>🧙‍♂️ Personajes del Mundo</h2></a>
+                <li><strong>Misiones ramificadas:</strong> Cada decisión en los diálogos afecta el rumbo de la misión,
+                    el
+                    comportamiento de los NPCs y el acceso a nuevas zonas o recompensas.</li>
 
-    <a href="./pages/ubicaciones.html"><h2>🗺️ Ubicaciones</h2></a>
+                <li><strong>Eventos dinámicos:</strong> Las localidades pueden cambiar con el tiempo o por acciones de
+                    los
+                    jugadores, generando nuevos desafíos, personajes o recompensas.</li>
 
-    <section>
-  <h2>📅 Roadmap Tentativo</h2>
-  <p>Este roadmap sirve como guía de desarrollo para el proyecto. Las fases pueden ajustarse según el avance, el equipo disponible y el feedback recibido. El objetivo es construir el juego de forma modular, priorizando funcionalidad básica, interactividad y narrativa.</p>
+                <li><strong>Presencia en tiempo real:</strong> Cada localidad muestra qué jugadores están activos en ese
+                    momento, permitiendo interacción directa, comercio o misiones cooperativas.</li>
 
-  <table >
-    <thead style="background-color: #f0f0f0;">
-      <tr>
-        <th>Fase</th>
-        <th>Objetivos</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Fase 1: Fundaciones</strong></td>
-        <td>Definir mecánicas base, estructura del mapa, sistema de localidades, arquitectura técnica y estilo visual.</td>
-      </tr>
-      <tr>
-        <td><strong>Fase 2: Prototipo jugable</strong></td>
-        <td>Implementar navegación, interfaz básica, sistema de misiones, combate por turnos y eventos simples.</td>
-      </tr>
-      <tr>
-        <td><strong>Fase 3: Interactividad</strong></td>
-        <td>Integrar Socket.IO, lista de jugadores en localidades, misiones cooperativas y sistema de legado por muerte.</td>
-      </tr>
-      <tr>
-        <td><strong>Fase 4: Arte y narrativa</strong></td>
-        <td>Generar fondos pixel art, retratos de personajes, primeros NPCs y mini historias con decisiones ramificadas.</td>
-      </tr>
-      <tr>
-        <td><strong>Fase 5: Pruebas y ajustes</strong></td>
-        <td>Testeo interno, balance de combate, revisión de diálogos, corrección de bugs y optimización para móviles.</td>
-      </tr>
-      <tr>
-        <td><strong>Fase 6: Lanzamiento inicial</strong></td>
-        <td>Publicación web, apertura a feedback de jugadores, expansión de contenido y mejoras iterativas.</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+                <li><strong>Mercado ambulante:</strong> Algunos comerciantes como Thora aparecen en distintas
+                    ubicaciones
+                    según el día o eventos especiales, ofreciendo objetos únicos.</li>
+
+                <li><strong>Exploración libre:</strong> No hay historia principal. El jugador decide a dónde ir, qué
+                    misiones tomar y qué personajes conocer, construyendo su propio recorrido.</li>
+
+                <li><strong>Cristales con memoria:</strong> Los cristales heredados de jugadores caídos pueden contener
+                    fragmentos de historia, habilidades o efectos únicos que se desbloquean con el tiempo.</li>
+            </ul>
+        </div>
+    </details>
 
 
-    <section>
-        <h2>💬 Contacto y Comunidad</h2>
-        <ul>
-            <li>Cómo sumarse: [Discord, GitHub, email]</li>
-            <li>Espacio para feedback: [Sí / No / A definir]</li>
-            <li>Dinámica de decisiones: [Democrática, por roles, etc]</li>
-        </ul>
-    </section>
+    <details>
+        <summary>🏰 Historia de Fondo (ambientación general)</summary>
+        <div>
+            <p><strong>Hace siglos, el continente de Virelia fue dividido por un cataclismo mágico conocido como “La
+                    Fractura”.</strong></p>
+            <p>
+                Desde entonces, las localidades quedaron aisladas, cada una con sus propias reglas, criaturas y
+                secretos.
+                Los viajeros que se aventuran por el mapa lo hacen sabiendo que cada paso puede ser el último. La magia
+                que
+                provocó la Fractura aún vive en los cristales que los caídos dejan atrás, y quienes los heredan pueden
+                canalizar su poder… o ser corrompidos por él.</p>
+
+            <span>Este tipo de historia te permite justificar:</span>
+            <ul>
+                <li>Localidades con estilos únicos.</li>
+                <li>Eventos impredecibles.</li>
+                <li>La mecánica de muerte permanente y legado mágico.</li>
+                <li>Misiones fragmentadas con tono variado.</li>
+            </ul>
+        </div>
+    </details>
+
+    <details>
+        <summary>📚 Recursos y Tablas Externas</summary>
+        <div>
+            <p>En esta sección se agrupan enlaces a páginas complementarias con información detallada sobre distintos
+                elementos del juego.</p>
+            <ul>
+                <li><a href="./pages/personajes.html">🧙‍♂️ Tabla de personajes</a> – Retratos, roles, personalidad
+                    y misiones asociadas.</li>
+                <li><a href="./pages/enemigos.html">👹 Tabla de enemigos</a> – Tipos, habilidades, ubicaciones y
+                    recompensas.</li>
+                <li><a href="./pages/ubicaciones.html">🗺️ Tabla de ubicaciones</a> – Descripción, tipo, eventos y
+                    personajes vinculados.</li>
+                <li><a href="objetos.html">🎒 Tabla de objetos</a> – Ítems, cristales, armas y efectos
+                    especiales.</li>
+                <!-- <li><a href="gremios.html">🏛️ Tabla de gremios</a> – Gremios activos, requisitos,
+                beneficios y miembros.</li> -->
+            </ul>
+        </div>
+    </details>
+
+
+    <details>
+        <summary>📅 Roadmap Tentativo</summary>
+        <div>
+            <p>Este roadmap sirve como guía de desarrollo para el proyecto. Las fases pueden ajustarse según el avance,
+                el
+                equipo disponible y el feedback recibido. El objetivo es construir el juego de forma modular,
+                priorizando
+                funcionalidad básica, interactividad y narrativa.</p>
+
+            <table>
+                <thead style="background-color: #f0f0f0;">
+                    <tr>
+                        <th>Fase</th>
+                        <th>Objetivos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Fase 1: Fundaciones</strong></td>
+                        <td>Definir mecánicas base, estructura del mapa, sistema de localidades, arquitectura técnica y
+                            estilo visual.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 2: Prototipo jugable</strong></td>
+                        <td>Implementar navegación, interfaz básica, sistema de misiones, combate por turnos y eventos
+                            simples.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 3: Interactividad</strong></td>
+                        <td>Integrar Socket.IO, lista de jugadores en localidades, misiones cooperativas y sistema de
+                            legado
+                            por muerte.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 4: Arte y narrativa</strong></td>
+                        <td>Generar fondos pixel art, retratos de personajes, primeros NPCs y mini historias con
+                            decisiones
+                            ramificadas.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 5: Pruebas y ajustes</strong></td>
+                        <td>Testeo interno, balance de combate, revisión de diálogos, corrección de bugs y optimización
+                            para
+                            móviles.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fase 6: Lanzamiento inicial</strong></td>
+                        <td>Publicación web, apertura a feedback de jugadores, expansión de contenido y mejoras
+                            iterativas.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
 
     <!-- 🤖 ¿Qué tan difícil es implementar NPCs con personalidad?
     No es tan difícil si lo abordás modularmente. Algunas ideas para hacerlo manejable:
